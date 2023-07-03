@@ -44,3 +44,6 @@
     background-clip: text; 
     text-transform: uppercase;
 }
+.spriew-button-prev
+.spriew-button-next{ 
+    display:none;}

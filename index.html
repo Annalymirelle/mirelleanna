@@ -64,7 +64,8 @@ css2?family=Poppins:ital,wght@1,900&display=swap" rel="stylesheet">
                  para seu desenvolvimento!</P>
                <input typy="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
      </section>
-
+     <div>
+    <div class="swiper-pagination"></div>
      <section class="carrossel">
           <h2 class="carrossel__titulo"> Novos Lançamentos</h2>
           <!-- Slider main container -->
@@ -74,25 +75,42 @@ css2?family=Poppins:ital,wght@1,900&display=swap" rel="stylesheet">
     <!-- Slides -->
     <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="Livro sobre apache Kafka e spring boot AluraBooks"></div>
     <div class="swiper-slide"><img src="img/Javascript.svg" alt="Livro sobre Javascript da AluraBooks"></div>
-    <div class="swiper-slide"><img src="img/Portugol.src" alt="Livro sobre Portugol da AluraBooks"></div>
+    <div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro sobre Portugol da AluraBooks"></div>
   </div>
-  <!-- If we need pagination -->
-  <div class="swiper-pagination"></div>
-
+</div>
   <!-- If we need navigation buttons -->
   <div class="swiper-button-prev"></div>
   <div class="swiper-button-next"></div>
-
-  <!-- If we need scrollbar -->
-  <div class="swiper-scrollbar"></div>
+  <div class="card">
+  <div class="card__descricao">
+  <div class="descricao">
+   <h3 class="descricao__titulo">Talvez voce também se interesse por...</h3>
+   <h2 class="descricao_titulo-livro">Angular 11 Firebase</h2>
+   <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+ </div>
+  <img src="img/angular.svg" class="descricao__imagem">
+  </div>
+  </div>
 </div>
      </section>
      <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
      <script>
       const swiper = new Swiper('.swiper', {
-  speed: 400,
-  spaceBetween: 10,
-});
-     </script>
+         spaceBetween: 10,
+          slidesPerView: 3,
+          pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+          },
+      });
+</script>
     </body>
     </html>
+
+
+
+
+
+
+
+   

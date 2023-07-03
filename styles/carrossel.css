@@ -7,3 +7,18 @@
     font-weight: 700;
     padding: 1em 0 0.5em 0;
 }
+
+.spiwer-slide img{
+    width: 100%;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 0.5em 0;
+}
+
+.card__descricao{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
