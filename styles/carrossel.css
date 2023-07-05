@@ -1,4 +1,4 @@
-.carrosel__titulo {
+.carrossel__titulo {
     color: var(--laranja);
     background-color: var(--branco);
     text-align: center;
@@ -9,16 +9,10 @@
 }
 
 .spiwer-slide img{
-    width: 100%;
+    width:100%;
 }
 
 .swiper-pagination {
     position: initial;
     margin: 0.5em 0;
-}
-
-.card__descricao{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 0.5em;
 }
